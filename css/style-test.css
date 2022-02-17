@@ -134,7 +134,7 @@ p
 
 
 
-@media (max-width: 590px)
+@media (max-width: 1080px)
 {
     .section1
     {
@@ -147,12 +147,4 @@ p
         font-size: 28px;
     }
 
-}
-
-@media (min-width: 591px) and (max-width:768px)
-{
-    .big
-    {
-        font-size: 35px;
-    }
 }
