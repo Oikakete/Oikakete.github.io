@@ -1,0 +1,808 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>test</title>
+    <link href="css/style-test.css" rel="stylesheet">
+    <script type="text/javascript" src="lib/jquery-3.6.0.min.js"></script>
+  	<script src="js/test.js"></script>
+</head>
+
+<body>
+    <div class="header">
+      <div class="big">Тест IQ для детей от 7 до 16 лет</div>
+      <p>Большинство тестов IQ для детей не подходят, так как изначально они разрабатываются для взрослой части населения. Но, если имеется желание узнать коэффициент интеллекта ребенка с возрастом от 7 до 16 лет, есть несколько тестов, способных вам помочь. Среди них есть тест на IQ для детей, разработанный нами, который, в отличие от большинства подобных, может также определять уровень IQ детей в возрасте 6 лет.</p>
+      <p>Ребенку будет представлен ряд из трех картинок, расположенных с некоторой закономерностью. Необходимо будет выбрать из представленных ниже шести картинок подходящую на пустую ячейку. Первые четыре вопроса стоит проходить совместно с ребенком, чтобы он понял суть задания – эти вопросы не учитываются в расчете IQ. Приступим?</p>
+    </div>
+
+        <div class="section1">
+          <div class="nomer"> Вопрос №1</div>
+          <div class="pic"> <img src="img/v1.svg">  </div>
+          <div class="vopros">Какая из фигур должна находиться в самой правой ячейке со знаком вопроса?</div>
+          <div class="varianty">
+            <table class="tabl">
+                <tr>
+                    <td><img src="img/1.svg"></td>
+                    <td><img src="img/2.svg"></td>
+                    <td><img src="img/3.svg"></td>
+                    <td><img src="img/4.svg"></td>
+                    <td><img src="img/5.svg"></td>
+                    <td><img src="img/6.svg"></td>
+                </tr>
+                <tr>
+                    <td align="center">  <input type="radio" name="group1" value="1">1.</td>
+                    <td align="center">  <input type="radio" name="group1" value="2">2.</td>
+                    <td align="center">  <input type="radio" name="group1" value="3">3.</td>
+                    <td align="center">  <input type="radio" name="group1" value="4"id="ans1">4.</td>
+                    <td align="center">  <input type="radio" name="group1" value="5">5.</td>
+                    <td align="center">  <input type="radio" name="group1" value="6">6.</td>
+                </tr>
+            </table>
+          </div>
+        </div>
+
+        <div class="section1">
+          <div class="nomer"> Вопрос №2</div>
+          <div class="pic"> <img src="img/v2.svg">  </div>
+          <div class="vopros">Какая из фигур должна находиться в самой правой ячейке со знаком вопроса?</div>
+          <div class="varianty">
+            <table class="tabl">
+                <tr>
+                    <td><img src="img/21.svg"></td>
+                    <td><img src="img/22.svg"></td>
+                    <td><img src="img/23.svg"></td>
+                    <td><img src="img/24.svg"></td>
+                    <td><img src="img/25.svg"></td>
+                    <td><img src="img/26.svg"></td>
+                </tr>
+                <tr>
+                    <td align="center">  <input type="radio" name="group2" value="1">1.</td>
+                    <td align="center">  <input type="radio" name="group2" value="2"id="ans2">2.</td>
+                    <td align="center">  <input type="radio" name="group2" value="3">3.</td>
+                    <td align="center">  <input type="radio" name="group2" value="4">4.</td>
+                    <td align="center">  <input type="radio" name="group2" value="5">5.</td>
+                    <td align="center">  <input type="radio" name="group2" value="6">6.</td>
+                </tr>
+            </table>
+          </div>
+        </div>
+
+        <div class="section1">
+          <div class="nomer"> Вопрос №3</div>
+          <div class="pic"> <img src="img/v3.svg">  </div>
+          <div class="vopros">Какая из фигур должна находиться в самой правой ячейке со знаком вопроса?</div>
+          <div class="varianty">
+            <table class="tabl">
+                <tr>
+                    <td><img src="img/31.svg"></td>
+                    <td><img src="img/32.svg"></td>
+                    <td><img src="img/33.svg"></td>
+                    <td><img src="img/34.svg"></td>
+                    <td><img src="img/35.svg"></td>
+                    <td><img src="img/36.svg"></td>
+                </tr>
+                <tr>
+                    <td align="center">  <input type="radio" name="group3" value="1">1.</td>
+                    <td align="center">  <input type="radio" name="group3" value="2">2.</td>
+                    <td align="center">  <input type="radio" name="group3" value="3">3.</td>
+                    <td align="center">  <input type="radio" name="group3" value="4">4.</td>
+                    <td align="center">  <input type="radio" name="group3" value="5" id="ans3">5.</td>
+                    <td align="center">  <input type="radio" name="group3" value="6">6.</td>
+                </tr>
+            </table>
+          </div>
+        </div>
+
+        <div class="section1">
+          <div class="nomer"> Вопрос №4</div>
+          <div class="pic"> <img src="img/v4.svg">  </div>
+          <div class="vopros">Какая из фигур должна находиться в самой правой ячейке со знаком вопроса?</div>
+          <div class="varianty">
+            <table class="tabl">
+                <tr>
+                    <td><img src="img/41.svg"></td>
+                    <td><img src="img/42.svg"></td>
+                    <td><img src="img/43.svg"></td>
+                    <td><img src="img/44.svg"></td>
+                    <td><img src="img/45.svg"></td>
+                    <td><img src="img/46.svg"></td>
+                </tr>
+                <tr>
+                    <td align="center">  <input type="radio" name="group4" value="1">1.</td>
+                    <td align="center">  <input type="radio" name="group4" value="2">2.</td>
+                    <td align="center">  <input type="radio" name="group4" value="3">3.</td>
+                    <td align="center">  <input type="radio" name="group4" value="4">4.</td>
+                    <td align="center">  <input type="radio" name="group4" value="5">5.</td>
+                    <td align="center">  <input type="radio" name="group4" value="6" id="ans4">6.</td>
+                </tr>
+            </table>
+          </div>
+        </div>
+
+        <div class="section1">
+          <div class="nomer"> Вопрос №5</div>
+          <div class="pic"> <img src="img/v5.svg">  </div>
+          <div class="vopros">Какая из фигур должна находиться в самой правой ячейке со знаком вопроса?</div>
+          <div class="varianty">
+            <table class="tabl">
+                <tr>
+                    <td><img src="img/51.svg"></td>
+                    <td><img src="img/52.svg"></td>
+                    <td><img src="img/53.svg"></td>
+                    <td><img src="img/54.svg"></td>
+                    <td><img src="img/55.svg"></td>
+                    <td><img src="img/56.svg"></td>
+                </tr>
+                <tr>
+                    <td align="center">  <input type="radio" name="group5" value="1">1.</td>
+                    <td align="center">  <input type="radio" name="group5" value="2">2.</td>
+                    <td align="center">  <input type="radio" name="group5" value="3">3.</td>
+                    <td align="center">  <input type="radio" name="group5" value="4" id="ans5">4.</td>
+                    <td align="center">  <input type="radio" name="group5" value="5">5.</td>
+                    <td align="center">  <input type="radio" name="group5" value="6">6.</td>
+                </tr>
+            </table>
+          </div>
+        </div>
+
+        <div class="section1">
+          <div class="nomer"> Вопрос №6</div>
+          <div class="pic"> <img src="img/v6.svg">  </div>
+          <div class="vopros">Какая из фигур должна находиться в самой правой ячейке со знаком вопроса?</div>
+          <div class="varianty">
+            <table class="tabl">
+                <tr>
+                    <td><img src="img/61.svg"></td>
+                    <td><img src="img/62.svg"></td>
+                    <td><img src="img/63.svg"></td>
+                    <td><img src="img/64.svg"></td>
+                    <td><img src="img/65.svg"></td>
+                    <td><img src="img/66.svg"></td>
+                </tr>
+                <tr>
+                    <td align="center">  <input type="radio" name="group6" value="1">1.</td>
+                    <td align="center">  <input type="radio" name="group6" value="2">2.</td>
+                    <td align="center">  <input type="radio" name="group6" value="3">3.</td>
+                    <td align="center">  <input type="radio" name="group6" value="4">4.</td>
+                    <td align="center">  <input type="radio" name="group6" value="5" id="ans6">5.</td>
+                    <td align="center">  <input type="radio" name="group6" value="6">6.</td>
+                </tr>
+            </table>
+          </div>
+        </div>
+
+        <div class="section1">
+          <div class="nomer"> Вопрос №7</div>
+          <div class="pic"> <img src="img/v7.svg">  </div>
+          <div class="vopros">Какая из фигур должна находиться в самой правой ячейке со знаком вопроса?</div>
+          <div class="varianty">
+            <table class="tabl">
+                <tr>
+                    <td><img src="img/71.svg"></td>
+                    <td><img src="img/72.svg"></td>
+                    <td><img src="img/73.svg"></td>
+                    <td><img src="img/74.svg"></td>
+                    <td><img src="img/75.svg"></td>
+                    <td><img src="img/76.svg"></td>
+                </tr>
+                <tr>
+                    <td align="center">  <input type="radio" name="group7" value="1">1.</td>
+                    <td align="center">  <input type="radio" name="group7" value="2">2.</td>
+                    <td align="center">  <input type="radio" name="group7" value="3">3.</td>
+                    <td align="center">  <input type="radio" name="group7" value="4">4.</td>
+                    <td align="center">  <input type="radio" name="group7" value="5">5.</td>
+                    <td align="center">  <input type="radio" name="group7" value="6" id="ans7">6.</td>
+                </tr>
+            </table>
+          </div>
+        </div>
+
+        <div class="section1">
+          <div class="nomer"> Вопрос №8</div>
+          <div class="pic"> <img src="img/v8.svg">  </div>
+          <div class="vopros">Какая из фигур должна находиться в самой правой ячейке со знаком вопроса?</div>
+          <div class="varianty">
+            <table class="tabl">
+                <tr>
+                    <td><img src="img/81.svg"></td>
+                    <td><img src="img/82.svg"></td>
+                    <td><img src="img/83.svg"></td>
+                    <td><img src="img/84.svg"></td>
+                    <td><img src="img/85.svg"></td>
+                    <td><img src="img/86.svg"></td>
+                </tr>
+                <tr>
+                    <td align="center">  <input type="radio" name="group8" value="1">1.</td>
+                    <td align="center">  <input type="radio" name="group8" value="2">2.</td>
+                    <td align="center">  <input type="radio" name="group8" value="3" id="ans8">3.</td>
+                    <td align="center">  <input type="radio" name="group8" value="4">4.</td>
+                    <td align="center">  <input type="radio" name="group8" value="5">5.</td>
+                    <td align="center">  <input type="radio" name="group8" value="6">6.</td>
+                </tr>
+            </table>
+          </div>
+        </div>
+
+        <div class="section1">
+          <div class="nomer"> Вопрос №9</div>
+          <div class="pic"> <img src="img/v9.svg">  </div>
+          <div class="vopros">Какая из фигур должна находиться в самой правой ячейке со знаком вопроса?</div>
+          <div class="varianty">
+            <table class="tabl">
+                <tr>
+                    <td><img src="img/91.svg"></td>
+                    <td><img src="img/92.svg"></td>
+                    <td><img src="img/93.svg"></td>
+                    <td><img src="img/94.svg"></td>
+                    <td><img src="img/95.svg"></td>
+                    <td><img src="img/96.svg"></td>
+                </tr>
+                <tr>
+                    <td align="center">  <input type="radio" name="group9" value="1">1.</td>
+                    <td align="center">  <input type="radio" name="group9" value="2"id="ans9">2.</td>
+                    <td align="center">  <input type="radio" name="group9" value="3">3.</td>
+                    <td align="center">  <input type="radio" name="group9" value="4">4.</td>
+                    <td align="center">  <input type="radio" name="group9" value="5" >5.</td>
+                    <td align="center">  <input type="radio" name="group9" value="6">6.</td>
+                </tr>
+            </table>
+          </div>
+        </div>
+
+        <div class="section1">
+          <div class="nomer"> Вопрос №10</div>
+          <div class="pic"> <img src="img/v10.svg">  </div>
+          <div class="vopros">Какая из фигур должна находиться в самой правой ячейке со знаком вопроса?</div>
+          <div class="varianty">
+            <table class="tabl">
+                <tr>
+                    <td><img src="img/101.svg"></td>
+                    <td><img src="img/102.svg"></td>
+                    <td><img src="img/103.svg"></td>
+                    <td><img src="img/104.svg"></td>
+                    <td><img src="img/105.svg"></td>
+                    <td><img src="img/106.svg"></td>
+                </tr>
+                <tr>
+                    <td align="center">  <input type="radio" name="group10" value="1">1.</td>
+                    <td align="center">  <input type="radio" name="group10" value="2">2.</td>
+                    <td align="center">  <input type="radio" name="group10" value="3" id="ans10">3.</td>
+                    <td align="center">  <input type="radio" name="group10" value="4">4.</td>
+                    <td align="center">  <input type="radio" name="group10" value="5">5.</td>
+                    <td align="center">  <input type="radio" name="group10" value="6">6.</td>
+                </tr>
+            </table>
+          </div>
+        </div>
+
+        <div class="section1">
+          <div class="nomer"> Вопрос №11</div>
+          <div class="pic"> <img src="img/v11.svg">  </div>
+          <div class="vopros">Какая из фигур должна находиться в самой правой ячейке со знаком вопроса?</div>
+          <div class="varianty">
+            <table class="tabl">
+                <tr>
+                    <td><img src="img/111.svg"></td>
+                    <td><img src="img/112.svg"></td>
+                    <td><img src="img/113.svg"></td>
+                    <td><img src="img/114.svg"></td>
+                    <td><img src="img/115.svg"></td>
+                    <td><img src="img/116.svg"></td>
+                </tr>
+                <tr>
+                    <td align="center">  <input type="radio" name="group11" value="1">1.</td>
+                    <td align="center">  <input type="radio" name="group11" value="2">2.</td>
+                    <td align="center">  <input type="radio" name="group11" value="3">3.</td>
+                    <td align="center">  <input type="radio" name="group11" value="4">4.</td>
+                    <td align="center">  <input type="radio" name="group11" value="5"id="ans11">5.</td>
+                    <td align="center">  <input type="radio" name="group11" value="6">6.</td>
+                </tr>
+            </table>
+          </div>
+        </div>
+
+        <div class="section1">
+          <div class="nomer"> Вопрос №12</div>
+          <div class="pic"> <img src="img/v12.svg">  </div>
+          <div class="vopros">Какая из фигур должна находиться в самой правой ячейке со знаком вопроса?</div>
+          <div class="varianty">
+            <table class="tabl">
+                <tr>
+                    <td><img src="img/121.svg"></td>
+                    <td><img src="img/122.svg"></td>
+                    <td><img src="img/123.svg"></td>
+                    <td><img src="img/124.svg"></td>
+                    <td><img src="img/125.svg"></td>
+                    <td><img src="img/126.svg"></td>
+                </tr>
+                <tr>
+                    <td align="center">  <input type="radio" name="group12" value="1">1.</td>
+                    <td align="center">  <input type="radio" name="group12" value="2" id="ans12">2.</td>
+                    <td align="center">  <input type="radio" name="group12" value="3">3.</td>
+                    <td align="center">  <input type="radio" name="group12" value="4">4.</td>
+                    <td align="center">  <input type="radio" name="group12" value="5">5.</td>
+                    <td align="center">  <input type="radio" name="group12" value="6">6.</td>
+                </tr>
+            </table>
+          </div>
+        </div>
+
+        <div class="section1">
+          <div class="nomer"> Вопрос №13</div>
+          <div class="pic"> <img src="img/v13.svg">  </div>
+          <div class="vopros">Какая из фигур должна находиться в самой правой ячейке со знаком вопроса?</div>
+          <div class="varianty">
+            <table class="tabl">
+                <tr>
+                    <td><img src="img/131.svg"></td>
+                    <td><img src="img/132.svg"></td>
+                    <td><img src="img/133.svg"></td>
+                    <td><img src="img/134.svg"></td>
+                    <td><img src="img/135.svg"></td>
+                    <td><img src="img/136.svg"></td>
+                </tr>
+                <tr>
+                    <td align="center">  <input type="radio" name="group13" value="1">1.</td>
+                    <td align="center">  <input type="radio" name="group13" value="2">2.</td>
+                    <td align="center">  <input type="radio" name="group13" value="3">3.</td>
+                    <td align="center">  <input type="radio" name="group13" value="4">4.</td>
+                    <td align="center">  <input type="radio" name="group13" value="5" id="ans13">5.</td>
+                    <td align="center">  <input type="radio" name="group13" value="6">6.</td>
+                </tr>
+            </table>
+          </div>
+        </div>
+
+        <div class="section1">
+          <div class="nomer"> Вопрос №14</div>
+          <div class="pic"> <img src="img/v14.svg">  </div>
+          <div class="vopros">Какая из фигур должна находиться в самой правой ячейке со знаком вопроса?</div>
+          <div class="varianty">
+            <table class="tabl">
+                <tr>
+                    <td><img src="img/141.svg"></td>
+                    <td><img src="img/142.svg"></td>
+                    <td><img src="img/143.svg"></td>
+                    <td><img src="img/144.svg"></td>
+                    <td><img src="img/145.svg"></td>
+                    <td><img src="img/146.svg"></td>
+                </tr>
+                <tr>
+                    <td align="center">  <input type="radio" name="group14" value="1">1.</td>
+                    <td align="center">  <input type="radio" name="group14" value="2">2.</td>
+                    <td align="center">  <input type="radio" name="group14" value="3">3.</td>
+                    <td align="center">  <input type="radio" name="group14" value="4">4.</td>
+                    <td align="center">  <input type="radio" name="group14" value="5">5.</td>
+                    <td align="center">  <input type="radio" name="group14" value="6" id="ans14">6.</td>
+                </tr>
+            </table>
+          </div>
+        </div>
+
+        <div class="section1">
+          <div class="nomer"> Вопрос №15</div>
+          <div class="pic"> <img src="img/v15.svg">  </div>
+          <div class="vopros">Какая из фигур должна находиться в самой правой ячейке со знаком вопроса?</div>
+          <div class="varianty">
+            <table class="tabl">
+                <tr>
+                    <td><img src="img/151.svg"></td>
+                    <td><img src="img/152.svg"></td>
+                    <td><img src="img/153.svg"></td>
+                    <td><img src="img/154.svg"></td>
+                    <td><img src="img/155.svg"></td>
+                    <td><img src="img/156.svg"></td>
+                </tr>
+                <tr>
+                    <td align="center">  <input type="radio" name="group15" value="1">1.</td>
+                    <td align="center">  <input type="radio" name="group15" value="2" id="ans15">2.</td>
+                    <td align="center">  <input type="radio" name="group15" value="3">3.</td>
+                    <td align="center">  <input type="radio" name="group15" value="4">4.</td>
+                    <td align="center">  <input type="radio" name="group15" value="5">5.</td>
+                    <td align="center">  <input type="radio" name="group15" value="6">6.</td>
+                </tr>
+            </table>
+          </div>
+        </div>
+
+        <div class="section1">
+          <div class="nomer"> Вопрос №16</div>
+          <div class="pic"> <img src="img/v16.svg">  </div>
+          <div class="vopros">Какая из фигур должна находиться в самой правой ячейке со знаком вопроса?</div>
+          <div class="varianty">
+            <table class="tabl">
+                <tr>
+                    <td><img src="img/161.svg"></td>
+                    <td><img src="img/162.svg"></td>
+                    <td><img src="img/163.svg"></td>
+                    <td><img src="img/164.svg"></td>
+                    <td><img src="img/165.svg"></td>
+                    <td><img src="img/166.svg"></td>
+                </tr>
+                <tr>
+                    <td align="center">  <input type="radio" name="group16" value="1">1.</td>
+                    <td align="center">  <input type="radio" name="group16" value="2">2.</td>
+                    <td align="center">  <input type="radio" name="group16" value="3" id="ans16">3.</td>
+                    <td align="center">  <input type="radio" name="group16" value="4">4.</td>
+                    <td align="center">  <input type="radio" name="group16" value="5">5.</td>
+                    <td align="center">  <input type="radio" name="group16" value="6">6.</td>
+                </tr>
+            </table>
+          </div>
+        </div>
+
+        <div class="section1">
+          <div class="nomer"> Вопрос №17</div>
+          <div class="pic"> <img src="img/v17.svg">  </div>
+          <div class="vopros">Какая из фигур должна находиться в самой правой ячейке со знаком вопроса?</div>
+          <div class="varianty">
+            <table class="tabl">
+                <tr>
+                    <td><img src="img/171.svg"></td>
+                    <td><img src="img/172.svg"></td>
+                    <td><img src="img/173.svg"></td>
+                    <td><img src="img/174.svg"></td>
+                    <td><img src="img/175.svg"></td>
+                    <td><img src="img/176.svg"></td>
+                </tr>
+                <tr>
+                    <td align="center">  <input type="radio" name="group17" value="1" id="ans17">1.</td>
+                    <td align="center">  <input type="radio" name="group17" value="2">2.</td>
+                    <td align="center">  <input type="radio" name="group17" value="3">3.</td>
+                    <td align="center">  <input type="radio" name="group17" value="4">4.</td>
+                    <td align="center">  <input type="radio" name="group17" value="5">5.</td>
+                    <td align="center">  <input type="radio" name="group17" value="6">6.</td>
+                </tr>
+            </table>
+          </div>
+        </div>
+
+        <div class="section1">
+          <div class="nomer"> Вопрос №18</div>
+          <div class="pic"> <img src="img/v18.svg">  </div>
+          <div class="vopros">Какая из фигур должна находиться в самой правой ячейке со знаком вопроса?</div>
+          <div class="varianty">
+            <table class="tabl">
+                <tr>
+                    <td><img src="img/181.svg"></td>
+                    <td><img src="img/182.svg"></td>
+                    <td><img src="img/183.svg"></td>
+                    <td><img src="img/184.svg"></td>
+                    <td><img src="img/185.svg"></td>
+                    <td><img src="img/186.svg"></td>
+                </tr>
+                <tr>
+                    <td align="center">  <input type="radio" name="group18" value="1">1.</td>
+                    <td align="center">  <input type="radio" name="group18" value="2" id="ans18">2.</td>
+                    <td align="center">  <input type="radio" name="group18" value="3">3.</td>
+                    <td align="center">  <input type="radio" name="group18" value="4">4.</td>
+                    <td align="center">  <input type="radio" name="group18" value="5">5.</td>
+                    <td align="center">  <input type="radio" name="group18" value="6">6.</td>
+                </tr>
+            </table>
+          </div>
+        </div>
+
+        <div class="section1">
+          <div class="nomer"> Вопрос №19</div>
+          <div class="pic"> <img src="img/v19.svg">  </div>
+          <div class="vopros">Какая из фигур должна находиться в самой правой ячейке со знаком вопроса?</div>
+          <div class="varianty">
+            <table class="tabl">
+                <tr>
+                    <td><img src="img/191.svg"></td>
+                    <td><img src="img/192.svg"></td>
+                    <td><img src="img/193.svg"></td>
+                    <td><img src="img/194.svg"></td>
+                    <td><img src="img/195.svg"></td>
+                    <td><img src="img/196.svg"></td>
+                </tr>
+                <tr>
+                    <td align="center">  <input type="radio" name="group19" value="1" id="ans19">1.</td>
+                    <td align="center">  <input type="radio" name="group19" value="2">2.</td>
+                    <td align="center">  <input type="radio" name="group19" value="3">3.</td>
+                    <td align="center">  <input type="radio" name="group19" value="4">4.</td>
+                    <td align="center">  <input type="radio" name="group19" value="5">5.</td>
+                    <td align="center">  <input type="radio" name="group19" value="6">6.</td>
+                </tr>
+            </table>
+          </div>
+        </div>
+
+        <div class="section1">
+          <div class="nomer"> Вопрос №20</div>
+          <div class="pic"> <img src="img/v20.svg">  </div>
+          <div class="vopros">Какая из фигур должна находиться в самой правой ячейке со знаком вопроса?</div>
+          <div class="varianty">
+            <table class="tabl">
+                <tr>
+                    <td><img src="img/201.svg"></td>
+                    <td><img src="img/202.svg"></td>
+                    <td><img src="img/203.svg"></td>
+                    <td><img src="img/204.svg"></td>
+                    <td><img src="img/205.svg"></td>
+                    <td><img src="img/206.svg"></td>
+                </tr>
+                <tr>
+                    <td align="center">  <input type="radio" name="group20" value="1">1.</td>
+                    <td align="center">  <input type="radio" name="group20" value="2">2.</td>
+                    <td align="center">  <input type="radio" name="group20" value="3">3.</td>
+                    <td align="center">  <input type="radio" name="group20" value="4" id="ans20">4.</td>
+                    <td align="center">  <input type="radio" name="group20" value="5">5.</td>
+                    <td align="center">  <input type="radio" name="group20" value="6">6.</td>
+                </tr>
+            </table>
+          </div>
+        </div>
+
+        <div class="section1">
+          <div class="nomer"> Вопрос №21</div>
+          <div class="pic"> <img src="img/v21.svg">  </div>
+          <div class="vopros">Какая из фигур должна находиться в самой правой ячейке со знаком вопроса?</div>
+          <div class="varianty">
+            <table class="tabl">
+                <tr>
+                    <td><img src="img/211.svg"></td>
+                    <td><img src="img/212.svg"></td>
+                    <td><img src="img/213.svg"></td>
+                    <td><img src="img/214.svg"></td>
+                    <td><img src="img/215.svg"></td>
+                    <td><img src="img/216.svg"></td>
+                </tr>
+                <tr>
+                    <td align="center">  <input type="radio" name="group21" value="1">1.</td>
+                    <td align="center">  <input type="radio" name="group21" value="2">2.</td>
+                    <td align="center">  <input type="radio" name="group21" value="3" id="ans21">3.</td>
+                    <td align="center">  <input type="radio" name="group21" value="4">4.</td>
+                    <td align="center">  <input type="radio" name="group21" value="5">5.</td>
+                    <td align="center">  <input type="radio" name="group21" value="6">6.</td>
+                </tr>
+            </table>
+          </div>
+        </div>
+
+        <div class="section1">
+          <div class="nomer"> Вопрос №22</div>
+          <div class="pic"> <img src="img/v22.svg">  </div>
+          <div class="vopros">Какая из фигур должна находиться в самой правой ячейке со знаком вопроса?</div>
+          <div class="varianty">
+            <table class="tabl">
+                <tr>
+                    <td><img src="img/221.svg"></td>
+                    <td><img src="img/222.svg"></td>
+                    <td><img src="img/223.svg"></td>
+                    <td><img src="img/224.svg"></td>
+                    <td><img src="img/225.svg"></td>
+                    <td><img src="img/226.svg"></td>
+                </tr>
+                <tr>
+                    <td align="center">  <input type="radio" name="group22" value="1">1.</td>
+                    <td align="center">  <input type="radio" name="group22" value="2">2.</td>
+                    <td align="center">  <input type="radio" name="group22" value="3">3.</td>
+                    <td align="center">  <input type="radio" name="group22" value="4">4.</td>
+                    <td align="center">  <input type="radio" name="group22" value="5">5.</td>
+                    <td align="center">  <input type="radio" name="group22" value="6" id="ans22">6.</td>
+                </tr>
+            </table>
+          </div>
+        </div>
+
+        <div class="section1">
+          <div class="nomer"> Вопрос №23</div>
+          <div class="pic"> <img src="img/v23.svg">  </div>
+          <div class="vopros">Какая из фигур должна находиться в самой правой ячейке со знаком вопроса?</div>
+          <div class="varianty">
+            <table class="tabl">
+                <tr>
+                    <td><img src="img/231.svg"></td>
+                    <td><img src="img/232.svg"></td>
+                    <td><img src="img/233.svg"></td>
+                    <td><img src="img/234.svg"></td>
+                    <td><img src="img/235.svg"></td>
+                    <td><img src="img/236.svg"></td>
+                </tr>
+                <tr>
+                    <td align="center">  <input type="radio" name="group23" value="1">1.</td>
+                    <td align="center">  <input type="radio" name="group23" value="2" id="ans23">2.</td>
+                    <td align="center">  <input type="radio" name="group23" value="3">3.</td>
+                    <td align="center">  <input type="radio" name="group23" value="4">4.</td>
+                    <td align="center">  <input type="radio" name="group23" value="5">5.</td>
+                    <td align="center">  <input type="radio" name="group23" value="6">6.</td>
+                </tr>
+            </table>
+          </div>
+        </div>
+
+        <div class="section1">
+          <div class="nomer"> Вопрос №24</div>
+          <div class="pic"> <img src="img/v24.svg">  </div>
+          <div class="vopros">Какая из фигур должна находиться в самой правой ячейке со знаком вопроса?</div>
+          <div class="varianty">
+            <table class="tabl">
+                <tr>
+                    <td><img src="img/241.svg"></td>
+                    <td><img src="img/242.svg"></td>
+                    <td><img src="img/243.svg"></td>
+                    <td><img src="img/244.svg"></td>
+                    <td><img src="img/245.svg"></td>
+                    <td><img src="img/246.svg"></td>
+                </tr>
+                <tr>
+                    <td align="center">  <input type="radio" name="group24" value="1">1.</td>
+                    <td align="center">  <input type="radio" name="group24" value="2">2.</td>
+                    <td align="center">  <input type="radio" name="group24" value="3">3.</td>
+                    <td align="center">  <input type="radio" name="group24" value="4">4.</td>
+                    <td align="center">  <input type="radio" name="group24" value="5">5.</td>
+                    <td align="center">  <input type="radio" name="group24" value="6" id="ans24">6.</td>
+                </tr>
+            </table>
+          </div>
+        </div>
+
+        <div class="section1">
+          <div class="nomer"> Вопрос №25</div>
+          <div class="pic"> <img src="img/v25.svg">  </div>
+          <div class="vopros">Какая из фигур должна находиться в самой правой ячейке со знаком вопроса?</div>
+          <div class="varianty">
+            <table class="tabl">
+                <tr>
+                    <td><img src="img/251.svg"></td>
+                    <td><img src="img/252.svg"></td>
+                    <td><img src="img/253.svg"></td>
+                    <td><img src="img/254.svg"></td>
+                    <td><img src="img/255.svg"></td>
+                    <td><img src="img/256.svg"></td>
+                </tr>
+                <tr>
+                    <td align="center">  <input type="radio" name="group25" value="1">1.</td>
+                    <td align="center">  <input type="radio" name="group25" value="2" id="ans25">2.</td>
+                    <td align="center">  <input type="radio" name="group25" value="3">3.</td>
+                    <td align="center">  <input type="radio" name="group25" value="4">4.</td>
+                    <td align="center">  <input type="radio" name="group25" value="5">5.</td>
+                    <td align="center">  <input type="radio" name="group25" value="6">6.</td>
+                </tr>
+            </table>
+          </div>
+        </div>
+
+        <div class="section1">
+          <div class="nomer"> Вопрос №26</div>
+          <div class="pic"> <img src="img/v26.svg">  </div>
+          <div class="vopros">Какая из фигур должна находиться в самой правой ячейке со знаком вопроса?</div>
+          <div class="varianty">
+            <table class="tabl">
+                <tr>
+                    <td><img src="img/261.svg"></td>
+                    <td><img src="img/262.svg"></td>
+                    <td><img src="img/263.svg"></td>
+                    <td><img src="img/264.svg"></td>
+                    <td><img src="img/265.svg"></td>
+                    <td><img src="img/266.svg"></td>
+                </tr>
+                <tr>
+                    <td align="center">  <input type="radio" name="group26" value="1">1.</td>
+                    <td align="center">  <input type="radio" name="group26" value="2">2.</td>
+                    <td align="center">  <input type="radio" name="group26" value="3">3.</td>
+                    <td align="center">  <input type="radio" name="group26" value="4">4.</td>
+                    <td align="center">  <input type="radio" name="group26" value="5">5.</td>
+                    <td align="center">  <input type="radio" name="group26" value="6" id="ans26">6.</td>
+                </tr>
+            </table>
+          </div>
+        </div>
+
+        <div class="section1">
+          <div class="nomer"> Вопрос №27</div>
+          <div class="pic"> <img src="img/v27.svg">  </div>
+          <div class="vopros">Какая из фигур должна находиться в самой правой ячейке со знаком вопроса?</div>
+          <div class="varianty">
+            <table class="tabl">
+                <tr>
+                    <td><img src="img/271.svg"></td>
+                    <td><img src="img/272.svg"></td>
+                    <td><img src="img/273.svg"></td>
+                    <td><img src="img/274.svg"></td>
+                    <td><img src="img/275.svg"></td>
+                    <td><img src="img/276.svg"></td>
+                </tr>
+                <tr>
+                    <td align="center">  <input type="radio" name="group27" value="1">1.</td>
+                    <td align="center">  <input type="radio" name="group27" value="2" id="ans27">2.</td>
+                    <td align="center">  <input type="radio" name="group27" value="3">3.</td>
+                    <td align="center">  <input type="radio" name="group27" value="4">4.</td>
+                    <td align="center">  <input type="radio" name="group27" value="5">5.</td>
+                    <td align="center">  <input type="radio" name="group27" value="6">6.</td>
+                </tr>
+            </table>
+          </div>
+        </div>
+
+        <div class="section1">
+          <div class="nomer"> Вопрос №28</div>
+          <div class="pic"> <img src="img/v28.svg">  </div>
+          <div class="vopros">Какая из фигур должна находиться в самой правой ячейке со знаком вопроса?</div>
+          <div class="varianty">
+            <table class="tabl">
+                <tr>
+                    <td><img src="img/281.svg"></td>
+                    <td><img src="img/282.svg"></td>
+                    <td><img src="img/283.svg"></td>
+                    <td><img src="img/284.svg"></td>
+                    <td><img src="img/285.svg"></td>
+                    <td><img src="img/286.svg"></td>
+                </tr>
+                <tr>
+                    <td align="center">  <input type="radio" name="group28" value="1" id="ans28">1.</td>
+                    <td align="center">  <input type="radio" name="group28" value="2">2.</td>
+                    <td align="center">  <input type="radio" name="group28" value="3">3.</td>
+                    <td align="center">  <input type="radio" name="group28" value="4">4.</td>
+                    <td align="center">  <input type="radio" name="group28" value="5">5.</td>
+                    <td align="center">  <input type="radio" name="group28" value="6">6.</td>
+                </tr>
+            </table>
+          </div>
+        </div>
+
+        <div class="section1">
+          <div class="nomer"> Вопрос №29</div>
+          <div class="pic"> <img src="img/v29.svg">  </div>
+          <div class="vopros">Какая из фигур должна находиться в самой правой ячейке со знаком вопроса?</div>
+          <div class="varianty">
+            <table class="tabl">
+                <tr>
+                    <td><img src="img/291.svg"></td>
+                    <td><img src="img/292.svg"></td>
+                    <td><img src="img/293.svg"></td>
+                    <td><img src="img/294.svg"></td>
+                    <td><img src="img/295.svg"></td>
+                    <td><img src="img/296.svg"></td>
+                </tr>
+                <tr>
+                    <td align="center">  <input type="radio" name="group29" value="1">1.</td>
+                    <td align="center">  <input type="radio" name="group29" value="2">2.</td>
+                    <td align="center">  <input type="radio" name="group29" value="3">3.</td>
+                    <td align="center">  <input type="radio" name="group29" value="4">4.</td>
+                    <td align="center">  <input type="radio" name="group29" value="5" id="ans29">5.</td>
+                    <td align="center">  <input type="radio" name="group29" value="6">6.</td>
+                </tr>
+            </table>
+          </div>
+        </div>
+
+        <div class="section1">
+          <div class="nomer"> Вопрос №30</div>
+          <div class="pic"> <img src="img/v30.svg">  </div>
+          <div class="vopros">Какая из фигур должна находиться в самой правой ячейке со знаком вопроса?</div>
+          <div class="varianty">
+            <table class="tabl">
+                <tr>
+                    <td><img src="img/301.svg"></td>
+                    <td><img src="img/302.svg"></td>
+                    <td><img src="img/303.svg"></td>
+                    <td><img src="img/304.svg"></td>
+                    <td><img src="img/305.svg"></td>
+                    <td><img src="img/306.svg"></td>
+                </tr>
+                <tr>
+                    <td align="center">  <input type="radio" name="group30" value="1" id="ans30">1.</td>
+                    <td align="center">  <input type="radio" name="group30" value="2">2.</td>
+                    <td align="center">  <input type="radio" name="group30" value="3">3.</td>
+                    <td align="center">  <input type="radio" name="group30" value="4">4.</td>
+                    <td align="center">  <input type="radio" name="group30" value="5">5.</td>
+                    <td align="center">  <input type="radio" name="group30" value="6">6.</td>
+                </tr>
+            </table>
+          </div>
+        </div>
+
+
+<div class="header2">
+  <div class="block_otv">
+  <button id="knopka" class="Ans" onclick=otvet()>Закончить тест</button>
+  <p id = "prav">Данный тест не рассчитан на анализ очень высоких показателей интеллекта.</p>
+  <p class="otv" id = "result">Автор теста:  Неумывайченко Максим</p>
+</div>
+</div>
+
+</body>
+</html>
